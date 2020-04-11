@@ -12,7 +12,7 @@ import Foundation
 class CustomCell: UITableViewCell {
     
     @IBOutlet weak var lab: UILabel!
-    override func awakeFromNib() {
+        override func awakeFromNib() {
         super.awakeFromNib()
     }
     override func setSelected(_ selected: Bool, animated: Bool) {

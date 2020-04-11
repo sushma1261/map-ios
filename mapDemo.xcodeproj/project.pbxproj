@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2A1D2D2221396900A7CE04 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A1D2C2221396900A7CE04 /* Graphs.swift */; };
+		1F2A1D2F222169A000A7CE04 /* MultipleCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A1D2E222169A000A7CE04 /* MultipleCharts.swift */; };
+		1F2A1D3122216A5A00A7CE04 /* GraphCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A1D3022216A5A00A7CE04 /* GraphCollCell.swift */; };
+		1F693C192220D1BB006E0ABF /* DetailsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F693C182220D1BB006E0ABF /* DetailsDisplay.swift */; };
+		1F9CEDC8221ED00000932D12 /* MapAnnoPinColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CEDC7221ED00000932D12 /* MapAnnoPinColorViewController.swift */; };
+		1FCDAA3522204AA1005CF619 /* ViewStpMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDAA3422204AA1005CF619 /* ViewStpMap.swift */; };
+		1FE30865221038F9000BFD9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FE30864221038F9000BFD9B /* GoogleService-Info.plist */; };
 		781EE077214664AC004E03EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781EE076214664AC004E03EB /* AppDelegate.swift */; };
 		781EE079214664AC004E03EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781EE078214664AC004E03EB /* ViewController.swift */; };
 		781EE07C214664AC004E03EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781EE07A214664AC004E03EB /* Main.storyboard */; };
 		781EE07E214664AC004E03EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781EE07D214664AC004E03EB /* Assets.xcassets */; };
 		781EE081214664AC004E03EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781EE07F214664AC004E03EB /* LaunchScreen.storyboard */; };
-		781EE08A2146715F004E03EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781EE0892146715F004E03EB /* CoreLocation.framework */; };
-		781EE08C21467E34004E03EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 781EE08B21467E34004E03EB /* GoogleService-Info.plist */; };
+		781EE08A2146715F004E03EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781EE0892146715F004E03EB /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		782357E9216226CE00BC69A8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782357E8216226CE00BC69A8 /* CustomCell.swift */; };
 		782357EB216228DA00BC69A8 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782357EA216228DA00BC69A8 /* Details.swift */; };
-		8B810CC988D8D7D7D9F7C7BD /* Pods_mapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E739CBC4B6C1C52F067404 /* Pods_mapDemo.framework */; };
+		7827896021BE857100B93293 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827895F21BE857100B93293 /* ListView.swift */; };
+		78966F80220AF43B00044FAE /* Viewlocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78966F7F220AF43B00044FAE /* Viewlocation.swift */; };
+		78DBCCB221B93D1200B9DE6B /* ArrayRetrieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBCCB121B93D1200B9DE6B /* ArrayRetrieve.swift */; };
+		8B810CC988D8D7D7D9F7C7BD /* Pods_mapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E739CBC4B6C1C52F067404 /* Pods_mapDemo.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2A1D2C2221396900A7CE04 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		1F2A1D2E222169A000A7CE04 /* MultipleCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleCharts.swift; sourceTree = "<group>"; };
+		1F2A1D3022216A5A00A7CE04 /* GraphCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCollCell.swift; sourceTree = "<group>"; };
+		1F693C182220D1BB006E0ABF /* DetailsDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDisplay.swift; sourceTree = "<group>"; };
+		1F9CEDC7221ED00000932D12 /* MapAnnoPinColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnoPinColorViewController.swift; sourceTree = "<group>"; };
+		1FCDAA3422204AA1005CF619 /* ViewStpMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStpMap.swift; sourceTree = "<group>"; };
+		1FE30864221038F9000BFD9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		781EE073214664AC004E03EB /* mapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781EE076214664AC004E03EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		781EE078214664AC004E03EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,9 +44,11 @@
 		781EE080214664AC004E03EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		781EE082214664AC004E03EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		781EE0892146715F004E03EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		781EE08B21467E34004E03EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		782357E8216226CE00BC69A8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		782357EA216228DA00BC69A8 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		7827895F21BE857100B93293 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		78966F7F220AF43B00044FAE /* Viewlocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewlocation.swift; sourceTree = "<group>"; };
+		78DBCCB121B93D1200B9DE6B /* ArrayRetrieve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRetrieve.swift; sourceTree = "<group>"; };
 		79E739CBC4B6C1C52F067404 /* Pods_mapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2757AF9B92F637AE811EC6 /* Pods-mapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapDemo/Pods-mapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FFB4017B003BB88CA843BC9F /* Pods-mapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapDemo/Pods-mapDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,9 +94,18 @@
 				781EE07D214664AC004E03EB /* Assets.xcassets */,
 				781EE07F214664AC004E03EB /* LaunchScreen.storyboard */,
 				781EE082214664AC004E03EB /* Info.plist */,
-				781EE08B21467E34004E03EB /* GoogleService-Info.plist */,
+				1FE30864221038F9000BFD9B /* GoogleService-Info.plist */,
 				782357E8216226CE00BC69A8 /* CustomCell.swift */,
 				782357EA216228DA00BC69A8 /* Details.swift */,
+				78DBCCB121B93D1200B9DE6B /* ArrayRetrieve.swift */,
+				7827895F21BE857100B93293 /* ListView.swift */,
+				78966F7F220AF43B00044FAE /* Viewlocation.swift */,
+				1F9CEDC7221ED00000932D12 /* MapAnnoPinColorViewController.swift */,
+				1FCDAA3422204AA1005CF619 /* ViewStpMap.swift */,
+				1F693C182220D1BB006E0ABF /* DetailsDisplay.swift */,
+				1F2A1D2C2221396900A7CE04 /* Graphs.swift */,
+				1F2A1D2E222169A000A7CE04 /* MultipleCharts.swift */,
+				1F2A1D3022216A5A00A7CE04 /* GraphCollCell.swift */,
 			);
 			path = mapDemo;
 			sourceTree = "<group>";
@@ -135,7 +162,7 @@
 				TargetAttributes = {
 					781EE072214664AC004E03EB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 822ZRS7896;
+						DevelopmentTeam = 9FN39J7Z96;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -164,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				781EE081214664AC004E03EB /* LaunchScreen.storyboard in Resources */,
-				781EE08C21467E34004E03EB /* GoogleService-Info.plist in Resources */,
+				1FE30865221038F9000BFD9B /* GoogleService-Info.plist in Resources */,
 				781EE07E214664AC004E03EB /* Assets.xcassets in Resources */,
 				781EE07C214664AC004E03EB /* Main.storyboard in Resources */,
 			);
@@ -198,13 +225,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-mapDemo/Pods-mapDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -222,7 +253,16 @@
 			files = (
 				781EE079214664AC004E03EB /* ViewController.swift in Sources */,
 				782357E9216226CE00BC69A8 /* CustomCell.swift in Sources */,
+				7827896021BE857100B93293 /* ListView.swift in Sources */,
+				1F693C192220D1BB006E0ABF /* DetailsDisplay.swift in Sources */,
+				1F2A1D2F222169A000A7CE04 /* MultipleCharts.swift in Sources */,
+				1F2A1D3122216A5A00A7CE04 /* GraphCollCell.swift in Sources */,
 				782357EB216228DA00BC69A8 /* Details.swift in Sources */,
+				78DBCCB221B93D1200B9DE6B /* ArrayRetrieve.swift in Sources */,
+				1F9CEDC8221ED00000932D12 /* MapAnnoPinColorViewController.swift in Sources */,
+				78966F80220AF43B00044FAE /* Viewlocation.swift in Sources */,
+				1FCDAA3522204AA1005CF619 /* ViewStpMap.swift in Sources */,
+				1F2A1D2D2221396900A7CE04 /* Graphs.swift in Sources */,
 				781EE077214664AC004E03EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,12 +386,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFB4017B003BB88CA843BC9F /* Pods-mapDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 822ZRS7896;
+				DEVELOPMENT_TEAM = 9FN39J7Z96;
 				INFOPLIST_FILE = mapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = practice2.mapDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = practice2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -362,12 +403,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB2757AF9B92F637AE811EC6 /* Pods-mapDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 822ZRS7896;
+				DEVELOPMENT_TEAM = 9FN39J7Z96;
 				INFOPLIST_FILE = mapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = practice2.mapDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = practice2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
